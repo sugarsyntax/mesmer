@@ -8,7 +8,7 @@ body {
 }
 .navbar {
   border: none;
-  font-size: 1rem;
+  font-size: 1.3rem;
 }
 .jumbotron {
   background-color: #fff;
@@ -38,9 +38,49 @@ article {
   margin: 1rem 4rem;
 }
 h2 {
-  font-size: 4rem;
+  font-size: 2rem;
 }
 p {
-  font-size: 2rem;
-  line-height: 4.5rem;
+  font-size: 1.8rem;
+  line-height: 3.9rem;
+}
+figcaption {
+  font-size: 1.2rem;
+}
+.contain {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.left {
+  float: left;
+  width: 68%;
+  margin-right: 3%;
+}
+.right {
+  height: 30rem;
+  width: auto;
+  margin: auto;
+  float: right;
+}
+figure > * {
+  display: block;
+  margin: 3.5rem auto;
+  width: 91%;
+  text-align: center;
+}
+left-side {
+  float: left;
+}
+right-side {
+  float: right;
+  width: 20%;
+}
+input {
+  width: 30%;
+}
+footer {
+  margin: 2rem 3.5rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.2rem;
 }
