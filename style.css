@@ -4,6 +4,7 @@
 }
 body {
   font-family: "Alegreya", serif;
+  color: #000;
 }
 .navbar {
   border: none;
@@ -17,14 +18,29 @@ body {
   margin-bottom: 0rem;
   padding-top: 7rem;
   font-family: "amatic";
-  font-size: 14rem;
+  font-size: 13rem;
+  letter-spacing: 0.5rem;
 }
 #msb {
   margin-top: 0rem;
   padding-top: 2rem;
   font-family: "amatic";
   font-size: 5rem;
+  letter-spacing: 0.2rem;
+}
+.amatic {
+  font-family: "amatic";
 }
 .charcoal {
   color: #36454f;
+}
+article {
+  margin: 1rem 4rem;
+}
+h2 {
+  font-size: 4rem;
+}
+p {
+  font-size: 2rem;
+  line-height: 4.5rem;
 }
