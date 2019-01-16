@@ -1,3 +1,30 @@
+@font-face {
+  font-family: "amatic";
+  src: url(amatic/AmaticSC-Regular.ttf) format("truetype");
+}
 body {
   font-family: "Alegreya", serif;
+}
+.navbar {
+  border: none;
+  font-size: 1rem;
+}
+.jumbotron {
+  background-color: #fff;
+}
+#mesmer {
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  padding-top: 7rem;
+  font-family: "amatic";
+  font-size: 14rem;
+}
+#msb {
+  margin-top: 0rem;
+  padding-top: 2rem;
+  font-family: "amatic";
+  font-size: 5rem;
+}
+.charcoal {
+  color: #36454f;
 }
