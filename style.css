@@ -12,18 +12,15 @@ body {
 }
 .jumbotron {
   background-color: #fff;
+  margin-top: 6rem;
 }
 #mesmer {
-  margin-top: 0rem;
-  margin-bottom: 0rem;
-  padding-top: 7rem;
   font-family: "amatic";
   font-size: 13rem;
   letter-spacing: 0.5rem;
+  text-decoration: underline solid #000;
 }
 #msb {
-  margin-top: 0rem;
-  padding-top: 2rem;
   font-family: "amatic";
   font-size: 5rem;
   letter-spacing: 0.2rem;
@@ -33,6 +30,7 @@ body {
 }
 .charcoal {
   color: #36454f;
+  text-decoration: underline solid #000;
 }
 article {
   margin: 1rem 4rem;
@@ -78,6 +76,7 @@ right-side {
 }
 input {
   width: 30%;
+  background-color: transparent;
 }
 footer {
   margin: 2rem 3.5rem;
