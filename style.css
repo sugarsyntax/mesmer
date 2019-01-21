@@ -118,3 +118,14 @@ li {
 .equal-right {
   float: right;
 }
+@media only screen and (max-width: 1080px) {
+  body {
+    background-color: lightblue;
+  }
+  #mesmer {
+    font-size: 7rem;
+  }
+  #msb {
+    font-size: 3rem;
+  }
+}
