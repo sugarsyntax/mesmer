@@ -95,6 +95,9 @@ figure > * {
   float: left;
   margin: 2rem 2rem 0rem auto;
 }
+.words-right {
+  text-align: end;
+}
 form label {
   font-size: 1.4rem;
   margin: 0.8rem auto;
@@ -111,7 +114,12 @@ footer {
   font-size: 0.8rem;
   letter-spacing: 0.2rem;
 }
-.pre-footer p {
+.green-footer {
+  font-size: 1rem;
+  color: green;
+  line-height: 1.5rem;
+}
+.pre-footer {
   text-align: center;
   font-size: 1rem;
   margin-top: 2rem;
@@ -127,9 +135,12 @@ li {
 }
 .equal-left {
   float: left;
+  width: 50%;
+  margin-bottom: 3.5rem;
 }
 .equal-right {
   float: right;
+  width: 50%;
 }
 .ocean {
   float: right;
