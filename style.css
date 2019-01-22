@@ -63,6 +63,9 @@ figcaption {
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
+.container-fluid {
+  margin: 2rem 4rem;
+}
 .left {
   float: left;
   width: 68%;
@@ -82,10 +85,11 @@ figure > * {
 }
 .left-side {
   float: left;
+  margin-right: 1rem;
 }
 .right-side {
   float: right;
-  width: 75%;
+  width: 74%;
 }
 .lights_pic {
   float: left;
@@ -93,12 +97,13 @@ figure > * {
 }
 form label {
   font-size: 1.4rem;
+  margin: 0.8rem auto;
 }
 form li {
   margin-left: -2.5rem;
 }
 input {
-  width: 60%;
+  width: 50%;
   border: none;
 }
 footer {
@@ -106,10 +111,11 @@ footer {
   font-size: 0.8rem;
   letter-spacing: 0.2rem;
 }
-container-fluid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+.pre-footer p {
+  text-align: center;
+  font-size: 1rem;
+  margin-top: 2rem;
+  letter-spacing: 0.2rem;
 }
 .container-fluid h3 {
   text-align: center;
@@ -117,13 +123,17 @@ container-fluid {
 li {
   list-style: none;
   font-size: 1.4rem;
-  line-height: 3rem;
+  line-height: 3.5rem;
 }
 .equal-left {
   float: left;
 }
 .equal-right {
   float: right;
+}
+.ocean {
+  float: right;
+  margin: auto auto auto 1.5rem;
 }
 @media only screen and (max-width: 1080px) {
   body {
