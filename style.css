@@ -43,8 +43,8 @@ h2 {
   text-decoration: underline solid #000;
 }
 p {
-  font-size: 1.8rem;
-  line-height: 3.9rem;
+  font-size: 1.6rem;
+  line-height: 3.7rem;
 }
 figcaption {
   font-size: 1.2rem;
@@ -114,6 +114,9 @@ footer {
   font-size: 0.8rem;
   letter-spacing: 0.2rem;
 }
+.left-para {
+  text-align: right;
+}
 .green-footer {
   font-size: 1rem;
   color: green;
@@ -145,6 +148,10 @@ li {
 .ocean {
   float: right;
   margin: auto auto auto 1.5rem;
+}
+.shadow {
+  float: right;
+  margin: 1.5rem auto auto 1.5rem;
 }
 @media only screen and (max-width: 1080px) {
   body {
