@@ -5,6 +5,7 @@
 body {
   font-family: "Alegreya", serif;
   color: #000;
+  margin: auto 10rem;
 }
 .navbar {
   border: none;
@@ -17,13 +18,14 @@ body {
 }
 #mesmer {
   font-family: "amatic";
-  font-size: 13rem;
+  font-size: 9rem;
+  font-weight: 100;
   letter-spacing: 0.5rem;
   text-decoration: underline solid #000;
 }
 #msb {
   font-family: "amatic";
-  font-size: 5rem;
+  font-size: 4rem;
   letter-spacing: 0.2rem;
 }
 .amatic {
