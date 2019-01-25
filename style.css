@@ -8,6 +8,7 @@ body {
   body h2 {
     font-size: 2.5rem; }
   body .container {
+    display: flex;
     position: relative;
     width: 100%; }
   body p {
@@ -16,7 +17,7 @@ body {
   body figure > * {
     display: block;
     margin: 3.5rem auto;
-    width: 53rem;
+    width: 100%;
     text-align: center; }
   body footer {
     margin: 2rem 3.5rem;
@@ -28,13 +29,13 @@ body {
     margin-top: 6rem; }
     body .jumbotron #mesmer {
       font-family: "amatic";
-      font-size: 9rem;
+      font-size: 8rem;
       font-weight: 100;
       letter-spacing: 0.5rem;
       text-decoration: underline solid #000; }
     body .jumbotron #msb {
       font-family: "amatic";
-      font-size: 4rem;
+      font-size: 3.5rem;
       letter-spacing: 0.2rem; }
 
 .navbar {
@@ -50,23 +51,33 @@ body {
 figcaption {
   font-size: 0.9rem; }
 
+.quote-box {
+  margin: auto auto 3rem auto; }
+
 .quote {
   display: block;
-  text-align: center;
-  margin: 1.5rem auto; }
+  margin: auto;
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1.9rem;
+  text-align: center; }
 
 .left {
   float: left;
   flex: 1;
-  text-align: right; }
+  text-align: right;
+  margin-left: 0; }
 
 .right {
   float: right;
-  height: 15rem;
-  width: auto; }
+  height: 22rem;
+  width: auto;
+  margin: 0.5rem auto auto 2rem; }
 
 .left-side {
   float: left;
+  height: 33rem;
+  width: auto;
   margin-right: 1rem; }
 
 .right-side {
@@ -88,7 +99,7 @@ form li {
   font-size: 1.3rem; }
 
 input {
-  width: 10%;
+  width: auto;
   border: none; }
 
 .left-para {
@@ -136,18 +147,18 @@ li {
     margin: auto 4rem; }
 
   #mesmer {
-    font-size: 3rem; }
+    font-size: 2.5rem; }
 
   #msb {
     font-size: 1.5rem; }
 
   h2 {
-    font-size: 2.2rem; }
+    font-size: 1.5rem; }
 
   article {
     margin: auto 1.5rem; }
     article p {
-      font-size: 1.3rem;
+      font-size: 1rem;
       line-height: 2.7rem;
       text-align: justify; }
 
