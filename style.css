@@ -7,6 +7,8 @@ body {
   margin: auto 20rem; }
   body h2 {
     font-size: 2.5rem; }
+    body h2 .underline {
+      text-decoration: underline; }
   body .container {
     display: flex;
     position: relative;
@@ -123,6 +125,8 @@ li {
 
 .certs {
   flex: 1; }
+  .certs h4 {
+    font-size: 1rem; }
   .certs li {
     line-height: 1.6rem;
     font-size: 1.2rem; }

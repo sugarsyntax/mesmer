@@ -1,6 +1,7 @@
 @font-face
   font-family: "amatic"
   src: url(amatic/AmaticSC-Regular.ttf) format("truetype")
+
 $underline: underline solid #000
 
 body
@@ -10,6 +11,7 @@ body
   h2
     font-size: 2.5rem
     .underline
+      text-decoration: underline
   .container
     display: flex
     position: relative
@@ -125,7 +127,8 @@ li
 .certs 
   flex: 1
   h4 
-  & li 
+    font-size: 1rem
+  li 
     line-height: 1.6rem
     font-size: 1.2rem
 .equal-left
