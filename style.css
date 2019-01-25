@@ -20,9 +20,12 @@ body {
     width: 100%;
     text-align: center; }
   body footer {
-    margin: 2rem 3.5rem;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     letter-spacing: 0.2rem; }
+    body footer .green-footer {
+      font-size: 1rem;
+      color: green;
+      line-height: 1.5rem; }
   body .jumbotron {
     width: 100%;
     background-color: #fff;
@@ -53,20 +56,24 @@ figcaption {
 
 .quote-box {
   margin: auto auto 3rem auto; }
-
-.quote {
-  display: block;
-  margin: auto;
-  font-size: 1rem;
-  font-weight: bold;
-  line-height: 1.9rem;
-  text-align: center; }
+  .quote-box .quote {
+    display: block;
+    margin: auto;
+    font-weight: 700;
+    line-height: 1.9rem;
+    text-align: center; }
 
 .left {
   float: left;
   flex: 1;
   text-align: right;
   margin-left: 0; }
+
+.pre-footer {
+  text-align: center;
+  font-size: 0.9rem;
+  line-height: 1rem;
+  margin: 2rem auto; }
 
 .right {
   float: right;
@@ -76,13 +83,13 @@ figcaption {
 
 .left-side {
   float: left;
-  height: 33rem;
+  height: 28rem;
   width: auto;
   margin-right: 1rem; }
 
 .right-side {
   float: right;
-  width: 65%; }
+  flex: 1; }
 
 .lights_pic {
   float: left;
@@ -93,7 +100,7 @@ figcaption {
 
 form label {
   font-size: 1.3rem;
-  margin: 0.8rem auto; }
+  margin: 0.35rem auto; }
 form li {
   margin-left: -2.5rem;
   font-size: 1.3rem; }
@@ -103,18 +110,8 @@ input {
   border: none; }
 
 .left-para {
-  text-align: right; }
-
-.green-footer {
-  font-size: 1rem;
-  color: green;
-  line-height: 1.5rem; }
-
-.pre-footer {
-  text-align: center;
-  font-size: 1rem;
-  margin-top: 2rem;
-  letter-spacing: 0.2rem; }
+  text-align: right;
+  flex: 1; }
 
 .container-fluid h3 {
   text-align: center; }
@@ -122,7 +119,13 @@ input {
 li {
   list-style: none;
   font-size: 1.4rem;
-  line-height: 3.5rem; }
+  line-height: 3rem; }
+
+.certs {
+  flex: 1; }
+  .certs li {
+    line-height: 1.6rem;
+    font-size: 1.2rem; }
 
 .equal-left {
   float: left;
@@ -147,23 +150,22 @@ li {
     margin: auto 2rem; }
 
   #mesmer {
-    font-size: 2.5rem; }
+    font-size: 2rem; }
 
   #msb {
-    font-size: 1.5rem; }
+    font-size: 1rem; }
 
   h2 {
-    font-size: 1.5rem; }
+    font-size: 1rem; }
 
   article {
-    margin: auto 1.5rem; }
+    margin: auto 0.5rem; }
     article p {
       font-size: 1rem;
-      line-height: 2.7rem;
+      line-height: 0.7rem;
       text-align: justify; }
 
   footer {
-    margin: 1rem 1rem;
     font-size: 0.5rem; }
 
   .ocean {
