@@ -1,182 +1,163 @@
 @font-face {
   font-family: "amatic";
-  src: url(amatic/AmaticSC-Regular.ttf) format("truetype");
-}
+  src: url(amatic/AmaticSC-Regular.ttf) format("truetype"); }
 body {
   font-family: "Alegreya", serif;
   color: #000;
-  margin: auto 10rem;
-}
+  margin: auto 20rem; }
+  body h2 {
+    font-size: 2.5rem; }
+  body .container {
+    position: relative;
+    width: 100%; }
+  body p {
+    font-size: 1.1rem;
+    line-height: 2.2rem; }
+  body figure > * {
+    display: block;
+    margin: 3.5rem auto;
+    width: 53rem;
+    text-align: center; }
+  body footer {
+    margin: 2rem 3.5rem;
+    font-size: 0.8rem;
+    letter-spacing: 0.2rem; }
+  body .jumbotron {
+    width: 100%;
+    background-color: #fff;
+    margin-top: 6rem; }
+    body .jumbotron #mesmer {
+      font-family: "amatic";
+      font-size: 9rem;
+      font-weight: 100;
+      letter-spacing: 0.5rem;
+      text-decoration: underline solid #000; }
+    body .jumbotron #msb {
+      font-family: "amatic";
+      font-size: 4rem;
+      letter-spacing: 0.2rem; }
+
 .navbar {
-  border: none;
-  font-size: 1.3rem;
-}
-.jumbotron {
-  width: 100%;
-  background-color: #fff;
-  margin-top: 6rem;
-}
-#mesmer {
-  font-family: "amatic";
-  font-size: 9rem;
-  font-weight: 100;
-  letter-spacing: 0.5rem;
-  text-decoration: underline solid #000;
-}
-#msb {
-  font-family: "amatic";
-  font-size: 4rem;
-  letter-spacing: 0.2rem;
-}
+  border: none; }
+
 .amatic {
-  font-family: "amatic";
-}
+  font-family: "amatic"; }
+
 .charcoal {
-  color: #36454f;
-  text-decoration: underline solid #000;
-}
-article {
-  margin: 1rem 4rem;
-}
-h2 {
-  font-size: 2.5rem;
-}
-.underline {
-  text-decoration: underline solid #000;
-}
-p {
-  font-size: 1.6rem;
-  line-height: 3.5rem;
-}
+  color: #777a78;
+  text-decoration: underline solid #000; }
+
 figcaption {
-  font-size: 1.2rem;
-}
+  font-size: 0.9rem; }
+
 .quote {
+  display: block;
   text-align: center;
-  margin: 1.5rem auto;
-}
-.quote p {
-  font-size: 1.2rem;
-  font-weight: bold;
-  margin: -1rem auto;
-}
-.contain {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-.container-fluid {
-  margin: 2rem 4rem;
-}
+  margin: 1.5rem auto; }
+
 .left {
   float: left;
-  width: 68%;
-  margin-right: 3%;
-}
+  flex: 1;
+  text-align: right; }
+
 .right {
-  height: 30rem;
-  width: auto;
-  margin: auto;
   float: right;
-}
-figure > * {
-  display: block;
-  margin: 3.5rem auto;
-  width: 91%;
-  text-align: center;
-}
+  height: 15rem;
+  width: auto; }
+
 .left-side {
   float: left;
-  margin-right: 1rem;
-}
+  margin-right: 1rem; }
+
 .right-side {
   float: right;
-  width: 74%;
-}
+  width: 65%; }
+
 .lights_pic {
   float: left;
-  margin: 2rem 2rem 0rem auto;
-}
+  margin: 2rem 2rem 0rem auto; }
+
 .words-right {
-  text-align: end;
-}
+  text-align: end; }
+
 form label {
-  font-size: 1.4rem;
-  margin: 0.8rem auto;
-}
+  font-size: 1.3rem;
+  margin: 0.8rem auto; }
 form li {
   margin-left: -2.5rem;
-}
+  font-size: 1.3rem; }
+
 input {
-  width: 50%;
-  border: none;
-}
-footer {
-  margin: 2rem 3.5rem;
-  font-size: 0.8rem;
-  letter-spacing: 0.2rem;
-}
+  width: 10%;
+  border: none; }
+
 .left-para {
-  text-align: right;
-}
+  text-align: right; }
+
 .green-footer {
   font-size: 1rem;
   color: green;
-  line-height: 1.5rem;
-}
+  line-height: 1.5rem; }
+
 .pre-footer {
   text-align: center;
   font-size: 1rem;
   margin-top: 2rem;
-  letter-spacing: 0.2rem;
-}
+  letter-spacing: 0.2rem; }
+
 .container-fluid h3 {
-  text-align: center;
-}
+  text-align: center; }
+
 li {
   list-style: none;
   font-size: 1.4rem;
-  line-height: 3.5rem;
-}
+  line-height: 3.5rem; }
+
 .equal-left {
   float: left;
   width: 50%;
-  margin-bottom: 3.5rem;
-}
+  margin-bottom: 3.5rem; }
+
 .equal-right {
   float: right;
-  width: 50%;
-}
+  width: 50%; }
+
 .ocean {
   float: right;
-  margin: auto auto auto 1.5rem;
-}
+  margin: auto auto auto 1.5rem; }
+
 .shadow {
   float: right;
-  margin: 1.5rem auto auto 1.5rem;
-}
-@media only screen and (max-width: 1080px) {
+  margin: 1.5rem auto auto 1.5rem; }
+
+@media only screen and (max-width: 1024px) {
   body {
     background-color: lightblue;
-  }
+    margin: auto 4rem; }
+
   #mesmer {
-    font-size: 3rem;
-  }
+    font-size: 3rem; }
+
   #msb {
-    font-size: 1.5rem;
-  }
+    font-size: 1.5rem; }
+
   h2 {
-    font-size: 2.2rem;
-  }
+    font-size: 2.2rem; }
+
   article {
-    margin: auto 1.5rem;
-  }
-  article p {
-    font-size: 1.3rem;
-    line-height: 3rem;
-  }
+    margin: auto 1.5rem; }
+    article p {
+      font-size: 1.3rem;
+      line-height: 2.7rem;
+      text-align: justify; }
+
   footer {
     margin: 1rem 1rem;
-    font-size: 0.5rem;
-  }
-}
+    font-size: 0.5rem; }
+
+  .ocean {
+    margin: auto;
+    width: 100%;
+    float: none; } }
+
+/*# sourceMappingURL=style.css.map */
