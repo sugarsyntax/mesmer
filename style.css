@@ -85,13 +85,14 @@ figcaption {
 
 .left-side {
   float: left;
+  flex: 1;
   height: 28rem;
   width: auto;
-  margin-right: 1rem; }
+  margin-left: 0; }
 
 .right-side {
   float: right;
-  flex: 1; }
+  margin-left: 2.8rem; }
 
 .lights_pic {
   float: left;
