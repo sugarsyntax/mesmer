@@ -8,7 +8,7 @@ body {
   body h2 {
     font-size: 2.5rem; }
     body h2 .underline {
-      text-decoration: underline; }
+      text-decoration: underline solid #000; }
   body .container {
     margin: 2.5rem auto;
     display: flex;
