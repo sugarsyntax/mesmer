@@ -160,6 +160,10 @@ li {
   margin: auto auto auto 1.5rem;
   height: 20rem; }
 
+.bark {
+  width: auto;
+  height: 25rem; }
+
 @media only screen and (max-width: 1024px) {
   body {
     background-color: lightblue;
