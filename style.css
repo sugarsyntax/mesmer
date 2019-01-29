@@ -169,23 +169,22 @@ li {
 @media only screen and (max-width: 1024px) {
   body {
     background-color: lightblue;
-    margin: auto 5rem; }
+    margin: auto 1.5rem; }
     body .jumbotron {
       width: 100%; }
       body .jumbotron #mesmer {
-        font-size: 5rem; }
+        font-size: 3rem; }
       body .jumbotron #msb {
-        font-size: 2rem; }
-
-  h2 {
-    font-size: 1rem; }
-
-  article {
-    margin: auto 0.5rem; }
-    article p {
+        font-size: 1.5rem; }
+    body article {
+      margin: 0 auto; }
+    body .container {
       font-size: 1.2rem;
       line-height: 1.5rem;
       text-align: justify; }
+
+  h2 {
+    font-size: 0.8rem; }
 
   footer {
     font-size: 0.5rem; }
@@ -195,7 +194,7 @@ li {
     width: 100%;
     float: none; }
 
-  .left .right .left .left-side .left right-side {
+  .left .right .left .left-side .left .right-side .left .left-pic {
     float: none; } }
 
 /*# sourceMappingURL=style.css.map */
