@@ -87,13 +87,17 @@ figcaption {
 .left-side {
   float: left;
   flex: 1;
-  height: 28rem;
+  height: 26rem;
   width: auto;
   margin-left: 0; }
 
 .right-side {
   float: right;
-  margin-left: 2.8rem; }
+  margin-left: 1rem; }
+
+.right-right {
+  float: right;
+  text-align: right; }
 
 .lights_pic {
   float: left;
@@ -136,7 +140,7 @@ li {
     font-size: 1rem; }
   .certs li {
     line-height: 1.5rem;
-    font-size: 1.2rem; }
+    font-size: 1rem; }
 
 .equal-left {
   float: left;
