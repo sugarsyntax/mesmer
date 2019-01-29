@@ -94,6 +94,9 @@ figcaption {
 .right-side {
   float: right; }
 
+.left-pic {
+  margin-right: 2rem; }
+
 .right-right {
   float: right;
   text-align: right; }
@@ -162,10 +165,6 @@ li {
   float: right;
   margin: auto auto auto 1.5rem;
   height: 20rem; }
-
-.bark {
-  width: auto;
-  height: 25rem; }
 
 @media only screen and (max-width: 1024px) {
   body {
