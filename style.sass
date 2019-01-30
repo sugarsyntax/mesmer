@@ -94,6 +94,7 @@ figcaption
 
 .right-side
   float: right
+  margin: auto auto auto 2rem
 
 .left-pic 
   margin-right: 2rem
@@ -116,6 +117,7 @@ form
   li
     margin-left: -2.5rem
     font-size: 1.3rem
+    line-height: 2.7rem
 
 input
   width: auto
@@ -186,10 +188,11 @@ li
 
   footer
     font-size: 0.5rem
-  .ocean
+  .ocean 
+    &.shadow &.flowers
     margin: auto
     width: 100%
     float: none
   .left 
-    & .right & .left-side & .right-side & .left-pic
+    &.right, &.left-side, &.right-side, &.left-pic, &.equal-left, &.equal-right
       float: none

@@ -92,7 +92,8 @@ figcaption {
   margin-left: 0; }
 
 .right-side {
-  float: right; }
+  float: right;
+  margin: auto auto auto 2rem; }
 
 .left-pic {
   margin-right: 2rem; }
@@ -113,7 +114,8 @@ form label {
   margin: 0.35rem auto; }
 form li {
   margin-left: -2.5rem;
-  font-size: 1.3rem; }
+  font-size: 1.3rem;
+  line-height: 2.7rem; }
 
 input {
   width: auto;
@@ -194,7 +196,7 @@ li {
     width: 100%;
     float: none; }
 
-  .left .right .left .left-side .left .right-side .left .left-pic {
+  .left.right, .left.left-side, .left.right-side, .left.left-pic, .left.equal-left, .left.equal-right {
     float: none; } }
 
 /*# sourceMappingURL=style.css.map */
