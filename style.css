@@ -209,20 +209,22 @@ li {
       margin-left: -2.5rem;
       font-size: 1rem;
       line-height: 4rem; }
+    body form footer {
+      font-size: 0.5rem; } }
+.side-words {
+  margin: 1.5rem auto auto auto;
+  float: none;
+  text-align: left; }
 
-  footer {
-    font-size: 0.5rem; } }
 .ocean {
   margin: auto;
   width: 100%;
   float: none; }
 
 .pic {
-  margin: 0 auto; }
-
-.side-words {
-  float: none;
-  text-align: left; }
+  margin: 0 auto;
+  width: 100%;
+  height: auto; }
 
 .left {
   float: none; }
