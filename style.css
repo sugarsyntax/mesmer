@@ -66,6 +66,7 @@ figcaption {
     display: block;
     margin: auto;
     font-weight: 700;
+    font-style: italic;
     line-height: 1.9rem;
     text-align: center; }
 
@@ -207,7 +208,7 @@ li {
     body form li {
       margin-left: -2.5rem;
       font-size: 1rem;
-      line-height: 2rem; }
+      line-height: 4rem; }
 
   footer {
     font-size: 0.5rem; } }
@@ -216,9 +217,12 @@ li {
   width: 100%;
   float: none; }
 
+.pic {
+  margin: 0 auto; }
+
 .side-words {
   float: none;
-  text-align: justify; }
+  text-align: left; }
 
 .left {
   float: none; }
