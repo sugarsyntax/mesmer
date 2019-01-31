@@ -173,7 +173,6 @@ li {
 
 @media only screen and (max-width: 1040px) {
   body {
-    background-color: lightblue;
     margin: auto 1.5rem; }
     body .jumbotron {
       width: 100%; }
@@ -194,9 +193,21 @@ li {
       margin: inherit;
       float: none;
       width: 100%; }
-
-  h2 {
-    font-size: 0.8rem; }
+    body .quote-box {
+      margin: 0 auto; }
+    body .quote {
+      font-size: 0.8rem; }
+    body form h3 {
+      margin-top: 2rem;
+      font-size: 1.2rem; }
+    body form label {
+      font-size: 1rem;
+      margin: 0 auto;
+      line-height: 2rem; }
+    body form li {
+      margin-left: -2.5rem;
+      font-size: 1rem;
+      line-height: 2rem; }
 
   footer {
     font-size: 0.5rem; } }
@@ -204,6 +215,10 @@ li {
   margin: auto;
   width: 100%;
   float: none; }
+
+.side-words {
+  float: none;
+  text-align: justify; }
 
 .left {
   float: none; }
