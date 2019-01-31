@@ -194,6 +194,11 @@ li {
       font-size: 1.2rem;
       line-height: 1.5rem;
       text-align: justify; }
+    body .container-fluid {
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      text-align: left; }
     body p {
       font-size: 1rem;
       line-height: 2rem; }
@@ -258,10 +263,12 @@ li {
     float: none; }
 
   .equal-left {
-    float: none; }
+    float: none;
+    width: 100%; }
 
   .equal-right {
-    float: none; }
+    float: none;
+    width: 100%; }
 
   .right-side {
     float: left; }
