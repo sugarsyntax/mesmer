@@ -8,7 +8,9 @@ body {
   body h2 {
     font-size: 2.5rem; }
     body h2 .underline {
-      text-decoration: underline solid #000; }
+      text-decoration-line: underline;
+      text-decoration-style: solid;
+      text-decoration: #000; }
   body .container {
     margin: 2.5rem auto;
     display: flex;
@@ -169,7 +171,7 @@ li {
   margin: auto auto auto 1.5rem;
   height: 20rem; }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1040px) {
   body {
     background-color: lightblue;
     margin: auto 1.5rem; }
@@ -182,22 +184,46 @@ li {
     body article {
       margin: 0 auto; }
     body .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
       font-size: 1.2rem;
       line-height: 1.5rem;
       text-align: justify; }
+    body .lights-pic {
+      margin: inherit;
+      float: none;
+      width: 100%; }
 
   h2 {
     font-size: 0.8rem; }
 
   footer {
-    font-size: 0.5rem; }
+    font-size: 0.5rem; } }
+.ocean {
+  margin: auto;
+  width: 100%;
+  float: none; }
 
-  .ocean {
-    margin: auto;
-    width: 100%;
-    float: none; }
+.left {
+  float: none; }
 
-  .left.right, .left.left-side, .left.right-side, .left.left-pic, .left.equal-left, .left.equal-right {
-    float: none; } }
+.right {
+  float: none; }
+
+.left-side {
+  float: none; }
+
+.right-side {
+  float: none; }
+
+.left-pic {
+  float: none; }
+
+.equal-left {
+  float: none; }
+
+.equal-right {
+  float: none; }
 
 /*# sourceMappingURL=style.css.map */

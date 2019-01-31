@@ -4,6 +4,10 @@
 
 $underline: underline solid #000
 
+$line: underline
+$style: solid
+$black: #000
+
 body
   font-family: "Alegreya", serif
   color: #000
@@ -11,7 +15,9 @@ body
   h2
     font-size: 2.5rem
     .underline
-      text-decoration: $underline
+      text-decoration-line: $line
+      text-decoration-style: $style
+      text-decoration: $black
   .container
     margin: 2.5rem auto
     display: flex
@@ -168,7 +174,7 @@ li
   height: 20rem
 
 
-@media only screen and (max-width: 1024px)
+@media only screen and (max-width: 1040px)
   body
     background-color: lightblue
     margin: auto 1.5rem
@@ -181,19 +187,37 @@ li
     article
       margin: 0 auto
     .container
+      display: flex
+      flex-direction: column
+      justify-content: center
       font-size: 1.2rem
       line-height: 1.5rem
       text-align: justify
+    .lights-pic
+      margin: inherit
+      float: none
+      width: 100%
   h2
     font-size: 0.8rem
 
   footer
     font-size: 0.5rem
-  .ocean 
-    &.shadow &.flowers
+.ocean  
     margin: auto
     width: 100%
     float: none
-  .left 
-    &.right, &.left-side, &.right-side, &.left-pic, &.equal-left, &.equal-right
-      float: none
+
+.left 
+  float: none
+.right
+  float: none
+.left-side
+  float: none
+.right-side
+  float: none
+.left-pic
+  float: none
+.equal-left
+  float: none
+.equal-right
+  float: none
