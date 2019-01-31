@@ -7,10 +7,6 @@ body {
   margin: auto 20rem; }
   body h2 {
     font-size: 2.5rem; }
-    body h2 .underline {
-      text-decoration-line: underline;
-      text-decoration-style: solid;
-      text-decoration: #000; }
   body .container {
     margin: 2.5rem auto;
     display: flex;
@@ -26,12 +22,12 @@ body {
     text-align: center; }
   body footer {
     font-size: 0.7rem;
-    letter-spacing: 0.2rem;
-    margin-bottom: 2rem; }
+    letter-spacing: 0.2rem; }
     body footer .green-footer {
       font-size: 1rem;
       color: green;
-      line-height: 1.5rem; }
+      line-height: 1.5rem;
+      margin-bottom: 2rem; }
   body .jumbotron {
     width: 100%;
     background-color: #fff;
@@ -46,6 +42,10 @@ body {
       font-family: "amatic";
       font-size: 3.5rem;
       letter-spacing: 0.2rem; }
+
+.underline {
+  text-decoration: underline solid #000;
+  font-weight: 700; }
 
 .navbar {
   border: none; }
@@ -111,7 +111,7 @@ figcaption {
   margin: 2rem 2rem 0rem auto; }
 
 .words-right {
-  text-align: end; }
+  text-align: right; }
 
 form label {
   font-size: 1.3rem;
@@ -249,6 +249,15 @@ li {
     float: none; }
 
   .equal-right {
-    float: none; } }
+    float: none; }
+
+  .right-side {
+    float: left; }
+
+  .cert-mobile {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%; } }
 
 /*# sourceMappingURL=style.css.map */

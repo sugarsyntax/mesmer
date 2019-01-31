@@ -4,9 +4,6 @@
 
 $underline: underline solid #000
 
-$line: underline
-$style: solid
-$black: #000
 
 body
   font-family: "Alegreya", serif
@@ -14,10 +11,6 @@ body
   margin: auto 20rem   
   h2
     font-size: 2.5rem
-    .underline
-      text-decoration-line: $line
-      text-decoration-style: $style
-      text-decoration: $black
   .container
     margin: 2.5rem auto
     display: flex
@@ -38,8 +31,7 @@ body
       font-size: 1rem
       color: green
       line-height: 1.5rem
-    margin-bottom: 2rem
-
+      margin-bottom: 2rem
   .jumbotron
     width: 100%
     background-color: #fff
@@ -54,7 +46,9 @@ body
       font-family: "amatic"
       font-size: 3.5rem
       letter-spacing: 0.2rem
-
+.underline
+  text-decoration: $underline
+  font-weight: 700
 .navbar
   border: none
 
@@ -116,7 +110,7 @@ figcaption
   margin: 2rem 2rem 0rem auto
 
 .words-right
-  text-align: end
+  text-align: right
 
 form
   label
@@ -245,3 +239,10 @@ li
     float: none
   .equal-right
     float: none
+  .right-side
+    float: left
+  .cert-mobile 
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-around
+    width: 100%
