@@ -271,12 +271,16 @@ li {
     width: 100%; }
 
   .right-side {
-    float: left; }
+    margin-left: -2rem;
+    float: left;
+    border: 1px solid #000; }
 
-  .cert-mobile {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    width: 100%; } }
+  .right-right {
+    margin-top: -22.5rem;
+    margin-left: 35rem;
+    float: right;
+    border: 1px solid #000; }
+    .right-right li {
+      line-height: 1.5rem; } }
 
 /*# sourceMappingURL=style.css.map */
