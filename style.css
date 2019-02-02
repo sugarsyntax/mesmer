@@ -39,7 +39,7 @@ body {
   body .jumbotron {
     width: 100%;
     background-color: #fff;
-    margin-top: 6rem; }
+    margin: 6rem auto 0 auto; }
     body .jumbotron #mesmer {
       font-family: "amatic";
       font-size: 8rem;
