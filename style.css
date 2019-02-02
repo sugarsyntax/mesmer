@@ -1,14 +1,18 @@
 @font-face {
   font-family: "amatic";
   src: url(amatic/AmaticSC-Regular.ttf) format("truetype"); }
+html {
+  background-color: #777a78; }
+
 body {
+  background-color: #fff;
   font-family: "Alegreya", serif;
   color: #000;
   margin: auto 20rem; }
   body h2 {
     font-size: 2.5rem; }
   body .container {
-    margin: 2.5rem auto;
+    margin: 0.5rem auto;
     display: flex;
     position: relative;
     width: 100%; }
@@ -47,21 +51,28 @@ body {
       color: #777a78; }
 
 #happy {
-  font-size: 2rem; }
+  font-size: 2rem;
+  color: #000; }
 
 .underline {
   text-decoration: underline solid #000;
   font-weight: 700; }
 
 .navbar {
-  border: none; }
+  border: none;
+  background-color: #777a78; }
 
 .amatic {
-  font-family: "amatic"; }
+  font-family: "amatic";
+  color: #777a78; }
 
 .charcoal {
   color: #777a78;
   text-decoration: underline solid #000; }
+
+#rtwo {
+  padding-right: 1rem;
+  underline: underline solid #000; }
 
 figcaption {
   font-size: 0.9rem;
