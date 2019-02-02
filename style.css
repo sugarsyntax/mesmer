@@ -163,8 +163,7 @@ form {
     line-height: 2.7rem; }
 
 input {
-  width: auto;
-  border: none; }
+  width: auto; }
 
 .left-para {
   text-align: right;
@@ -221,8 +220,8 @@ li {
 .right-words {
   float: right; }
 
-#small {
-  font-size: 1rem; }
+.small {
+  font-size: 0.9rem; }
 
 @media only screen and (max-width: 1040px) {
   body {
@@ -325,15 +324,6 @@ li {
     margin-left: -4rem;
     float: left; }
     .certs li {
-      font-size: 0.7rem; }
-
-  .mobile-right {
-    margin-top: -22.5rem;
-    margin-left: 0;
-    margin-right: -2rem;
-    float: right; }
-    .mobile-right li {
-      line-height: 1.5rem;
       font-size: 0.7rem; } }
 
 /*# sourceMappingURL=style.css.map */
