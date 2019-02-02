@@ -43,7 +43,8 @@ body {
     body .jumbotron #msb {
       font-family: "amatic";
       font-size: 3.5rem;
-      letter-spacing: 0.2rem; }
+      letter-spacing: 0.2rem;
+      color: #777a78; }
 
 #happy {
   font-size: 2rem; }
