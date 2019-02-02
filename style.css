@@ -12,7 +12,7 @@ body {
   body h2 {
     font-size: 2.5rem; }
   body .container {
-    margin: 0.5rem auto;
+    margin: 0.1rem auto;
     display: flex;
     position: relative;
     width: 100%; }
@@ -21,7 +21,7 @@ body {
     line-height: 2.1rem; }
   body figure > * {
     display: block;
-    margin: 1.5rem auto;
+    margin: 1rem auto;
     width: 100%;
     text-align: center; }
   body footer {
@@ -82,7 +82,7 @@ figcaption {
   font-weight: 700; }
 
 .quote-box {
-  margin: auto; }
+  margin: auto auto 2.5rem auto; }
   .quote-box .quote {
     display: block;
     margin: auto;
@@ -195,7 +195,7 @@ li {
 
 @media only screen and (max-width: 1040px) {
   body {
-    margin: auto 1.5rem; }
+    margin: auto 1rem; }
     body .jumbotron {
       width: 100%; }
       body .jumbotron #mesmer {
@@ -243,7 +243,7 @@ li {
     font-size: 1.5rem; }
 
   footer {
-    font-size: 0.5rem;
+    font-size: 0.2rem;
     letter-spacing: normal;
     line-height: normal; }
     footer .green-footer {
@@ -296,12 +296,12 @@ li {
     .certs li {
       font-size: 0.7rem; }
 
-  .right-right {
+  .mobile-right {
     margin-top: -22.5rem;
     margin-left: 0;
     margin-right: -2rem;
     float: right; }
-    .right-right li {
+    .mobile-right li {
       line-height: 1.5rem;
       font-size: 0.7rem; } }
 
