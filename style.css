@@ -290,10 +290,10 @@ li {
     float: none;
     width: 100%; }
 
-  .right-side {
+  .certs {
     margin-left: -4rem;
     float: left; }
-    .right-side li {
+    .certs li {
       font-size: 0.7rem; }
 
   .right-right {
