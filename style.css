@@ -202,6 +202,13 @@ li {
         font-size: 3rem; }
       body .jumbotron #msb {
         font-size: 1.5rem; }
+    body footer {
+      font-size: 0.2rem;
+      letter-spacing: normal;
+      line-height: normal; }
+      body footer .green-footer {
+        font-size: 0.3rem;
+        line-height: normal; }
     body article {
       margin: 0 auto; }
     body .container {
@@ -241,13 +248,6 @@ li {
 
   #happy {
     font-size: 1.5rem; }
-
-  footer {
-    font-size: 0.2rem;
-    letter-spacing: normal;
-    line-height: normal; }
-    footer .green-footer {
-      line-height: normal; }
 
   .amatic {
     font-size: 2rem; }
