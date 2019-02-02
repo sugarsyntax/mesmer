@@ -59,7 +59,9 @@ body {
   font-weight: 700; }
 
 .navbar {
-  border: none;
+  border: none; }
+
+.navbar .navbar-light .bg-light {
   background-color: #777a78; }
 
 .amatic {
