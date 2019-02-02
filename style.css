@@ -95,7 +95,8 @@ figcaption {
   margin: 1rem auto 2.5rem auto; }
   .quote-box .quote {
     display: block;
-    margin: auto;
+    margin: auto 2rem;
+    font-size: 1rem;
     font-weight: 700;
     font-style: italic;
     line-height: 1.9rem;
@@ -108,11 +109,16 @@ figcaption {
   margin-left: 0; }
 
 .pre-footer {
+  margin: auto 2rem;
   text-align: center;
   font-size: 0.9rem;
   font-weight: 700;
   line-height: 1rem;
   margin: 0 auto 1.5rem auto; }
+
+.center {
+  margin: auto 1rem;
+  text-align: center; }
 
 .right {
   float: right;
