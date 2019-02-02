@@ -10,8 +10,9 @@ body {
   color: #000;
   margin: auto 20rem; }
   body h2 {
-    font-size: 2.5rem;
-    margin-left: 1rem; }
+    font-size: 2.5rem; }
+  body main {
+    margin: auto 2rem; }
   body .container {
     margin: 0.1rem auto;
     display: flex;
