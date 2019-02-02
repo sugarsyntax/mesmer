@@ -8,7 +8,7 @@ body {
   background-color: #fff;
   font-family: "Alegreya", serif;
   color: #000;
-  margin: auto 20rem; }
+  margin: auto 18rem; }
   body h2 {
     font-size: 2.5rem; }
   body h3 {
@@ -128,10 +128,9 @@ figcaption {
 
 .left-side {
   float: left;
-  flex: 1;
-  height: 26rem;
-  width: auto;
-  margin-left: 0; }
+  flex-shrink: 3;
+  margin-left: 0;
+  margin-right: -2rem; }
 
 .right-side {
   float: right;
@@ -151,13 +150,16 @@ figcaption {
 .words-right {
   text-align: right; }
 
-form label {
-  font-size: 1.3rem;
-  margin: 0.35rem auto; }
-form li {
-  margin-left: -2.5rem;
-  font-size: 1.3rem;
-  line-height: 2.7rem; }
+form {
+  float: right;
+  margin: auto auto auto 3rem; }
+  form label {
+    font-size: 1.3rem;
+    margin: 0.35rem auto; }
+  form li {
+    margin-left: -2.5rem;
+    font-size: 1.3rem;
+    line-height: 2.7rem; }
 
 input {
   width: auto;
@@ -213,6 +215,12 @@ li {
   float: right;
   margin: auto auto auto 1.5rem;
   height: 20rem; }
+
+.right-words {
+  float: right; }
+
+#small {
+  font-size: 1rem; }
 
 @media only screen and (max-width: 1040px) {
   body {
