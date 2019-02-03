@@ -227,7 +227,8 @@ li {
 
 @media only screen and (max-width: 1040px) {
   body {
-    margin: auto 1rem; }
+    margin: auto 1rem;
+    word-spacing: 0.1rem; }
     body .jumbotron {
       width: 100%; }
       body .jumbotron #mesmer {
@@ -235,7 +236,7 @@ li {
       body .jumbotron #msb {
         font-size: 1.2rem; }
     body footer {
-      font-size: 0.2rem;
+      font-size: 0.3rem;
       letter-spacing: normal;
       line-height: normal; }
       body footer .green-footer {
