@@ -243,7 +243,7 @@ li {
         font-size: 0.3rem;
         line-height: normal; }
     body article {
-      margin: 0 auto; }
+      margin: 0 inherit; }
     body .container {
       display: flex;
       flex-direction: column;
@@ -316,15 +316,18 @@ li {
     float: none; }
 
   .equal-left {
+    margin-left: -3.5rem;
+    border: 1px solid #000;
     float: none;
-    width: 100%; }
+    width: 21rem; }
 
   .equal-right {
     float: none;
     width: 100%; }
 
   .certs {
-    margin-left: -4rem;
+    margin-left: -3.5rem;
+    margin-right: -1rem;
     float: left; }
     .certs li {
       font-size: 0.7rem; } }
