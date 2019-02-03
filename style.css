@@ -211,8 +211,7 @@ li {
   margin: auto auto auto 1.5rem; }
 
 .shadow {
-  float: right;
-  margin: 1.5rem auto auto 1.5rem; }
+  float: right; }
 
 .flowers {
   float: right;
@@ -282,6 +281,9 @@ li {
   #happy {
     font-size: 1.5rem; }
 
+  main ul {
+    margin: -2rem; }
+
   .amatic {
     font-size: 2rem; }
 
@@ -307,6 +309,7 @@ li {
     float: none; }
 
   .left-side {
+    margin: 0 auto;
     float: none; }
 
   .right-side {
@@ -316,15 +319,23 @@ li {
     float: none; }
 
   .equal-left {
-    margin-left: -3rem;
-    border: 1px solid #000;
     float: none;
-    width: 21rem; }
+    width: 100%; }
+    .equal-left ul {
+      margin: 0 0 0 -3rem;
+      width: 15rem;
+      text-align: left; }
 
   .equal-right {
     margin-left: -3.5rem;
     float: none;
     width: 100%;
+    width: 21rem; }
+    .equal-right ul {
+      width: 18rem; }
+
+  .menu {
+    margin-left: -3rem;
     width: 21rem; }
 
   .certs {
