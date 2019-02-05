@@ -106,16 +106,16 @@
     <div class="container">
         <img src="pictures/grass.jpg" alt="grass" class="left-side pic">
 
-        <form class="side-words form-compact form-group">
+        <form class="side-words form-compact form-group" action="https://formspree.io/wenrodhypnosis@gmail.com" method="POST">
             <h3 style="text-align: left">Contact Information</h3>
             <label for="firstname">First Name</label>
-            <input type="text" name="firstname" id="firstname">
+            <input type="text" name="firstname" id="firstname" required minlength="1" maxlength="30">
             <br />
             <label for="lastname">Last Name</label>
-            <input type="text" name="lastname" id="lastname">
+            <input type="text" name="lastname" id="lastname" required minlength="1" maxlength="30">
             <br />
             <label for="message">Message</label>
-            <input type="text" name="message" id="message">
+            <input type="text" name="message" id="message" required minlength="15" maxlength="320">
             <br />
             <ul class="contact">
               <li>Mesmer Me Happy</li>
